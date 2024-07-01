@@ -1,10 +1,12 @@
+@use '../../styles.scss' as styles;
+
 .hero{
+    @include styles.lighter-font-style;
     max-width: 20%;
     background-color: beige;
     padding: 1em;
 }
 
 .hero-name{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
+    @include styles.heavier-font-style;
 }
