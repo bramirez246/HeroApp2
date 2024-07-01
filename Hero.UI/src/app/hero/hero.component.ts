@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HeroInfo } from '../interfaces/hero-info';
 import { HeroInfoComponent } from '../hero-info/hero-info.component';
 
 @Component({
@@ -9,4 +10,13 @@ import { HeroInfoComponent } from '../hero-info/hero-info.component';
   styleUrl: './hero.component.scss'
 })
 export class HeroComponent {
+  hero: HeroInfo = {
+    id: 1,
+    name: "Deadpool",
+    firstName: "Wade",
+    lastName: "Wilson",
+    birthplace: "Canada",
+    universe: "Marvel",
+    isFavorite: true
+  };
 }
