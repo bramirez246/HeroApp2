@@ -1,1 +1,3 @@
-<app-hero-info [heroInfo]="hero"></app-hero-info>
+<section class="results">
+    <app-hero-info *ngFor="let hero of heroList" [heroInfo]="hero"></app-hero-info>
+</section>

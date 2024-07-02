@@ -1,8 +1,7 @@
 @use '../../styles.scss' as styles;
 
 .hero{
-    @include styles.lighter-font-style;
-    max-width: 20%;
+    @include styles.normal-font-style;
     background-color: beige;
     padding: 1em;
 }
