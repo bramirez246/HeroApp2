@@ -1,3 +1,35 @@
+@use '../../styles.scss' as styles;
+
+.hero-form {
+  margin: 1rem;
+}
+
+.search-bar {
+  width: 25%;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1.8px solid rgb(14, 80, 221);
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.search-btn {
+  padding: 0.5em;
+  border-radius: 6px;
+  background: styles.$primary-blue;
+  border-color: styles.$primary-blue;
+  color: white;
+}
+
+.search-btn:hover {
+  background: styles.$hover-blue;
+}
+
+.search-btn:active {
+  background: styles.$active-blue;
+}
+
+
 .results {
     display: grid;
     column-gap: 14px;

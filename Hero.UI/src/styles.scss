@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary-blue: rgba(0, 80, 252, 0.911);
+$hover-blue: rgba(0, 67, 211, 0.911);
+$active-blue: rgba(2, 49, 150, 0.836);
+
 @mixin heavier-font-style {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;

@@ -1,3 +1,9 @@
+<section class="hero-search">
+    <form class="hero-form">
+        <input class="search-bar" type="text" placeholder="Filter by Name"/>
+        <button class="search-btn" type="button">Search</button>
+    </form>
+</section>
 <section class="results">
     <app-hero-info *ngFor="let hero of heroList" [heroInfo]="hero"></app-hero-info>
 </section>
