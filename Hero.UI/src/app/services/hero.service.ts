@@ -6,10 +6,6 @@ import { HeroInfo } from '../interfaces/hero-info';
 })
 export class HeroService {
 
-  constructor() { 
-    
-  }
-
   public getAllHeroes(): HeroInfo[] {
     let heroList: HeroInfo[] = [
       {
