@@ -16,7 +16,6 @@ export class HeroComponent {
   heroService: HeroService = inject(HeroService);
 
   constructor(){
-    this.heroList = this.heroService.getAllHeroes();
-    console.log(this.heroList);
+    this.heroService.getAllHeroes().subscribe((result : HeroInfo[]) => (this.heroList = result));
   }
 }

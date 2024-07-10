@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\brami\\Documents\\vscode-projects\\angular-projects\\dotnet-projects\\HeroApp2\\HeroAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74FCC780-7583-4AE5-B74D-F75BB453CAFC}|HeroAPI\\HeroAPI.csproj|c:\\users\\brami\\documents\\vscode-projects\\angular-projects\\dotnet-projects\\heroapp2\\heroapi\\heroapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FCC780-7583-4AE5-B74D-F75BB453CAFC}|HeroAPI\\HeroAPI.csproj|solutionrelative:heroapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74FCC780-7583-4AE5-B74D-F75BB453CAFC}|HeroAPI\\HeroAPI.csproj|c:\\users\\brami\\documents\\vscode-projects\\angular-projects\\dotnet-projects\\heroapp2\\heroapi\\heroapi\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FCC780-7583-4AE5-B74D-F75BB453CAFC}|HeroAPI\\HeroAPI.csproj|solutionrelative:heroapi\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brami\\Documents\\vscode-projects\\angular-projects\\dotnet-projects\\HeroApp2\\HeroAPI\\HeroAPI\\Program.cs",
+              "RelativeDocumentMoniker": "HeroAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\brami\\Documents\\vscode-projects\\angular-projects\\dotnet-projects\\HeroApp2\\HeroAPI\\HeroAPI\\Program.cs",
+              "RelativeToolTip": "HeroAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T20:11:13.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HeroController.cs",
               "DocumentMoniker": "C:\\Users\\brami\\Documents\\vscode-projects\\angular-projects\\dotnet-projects\\HeroApp2\\HeroAPI\\HeroAPI\\Controllers\\HeroController.cs",
               "RelativeDocumentMoniker": "HeroAPI\\Controllers\\HeroController.cs",
@@ -30,12 +47,11 @@
               "RelativeToolTip": "HeroAPI\\Controllers\\HeroController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T19:48:21.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T19:48:21.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Hero.cs",
               "DocumentMoniker": "C:\\Users\\brami\\Documents\\vscode-projects\\angular-projects\\dotnet-projects\\HeroApp2\\HeroAPI\\HeroAPI\\Hero.cs",
               "RelativeDocumentMoniker": "HeroAPI\\Hero.cs",

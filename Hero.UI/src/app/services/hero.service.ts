@@ -1,35 +1,20 @@
 import { Injectable } from '@angular/core';
 import { HeroInfo } from '../interfaces/hero-info';
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class HeroService {
 
-  // private const endpoint = "Hero";
+  private endpoint = "Hero";
 
-  public getAllHeroes(): HeroInfo[] {
-    let heroList: HeroInfo[] = [
-      {
-        id: 0,
-        name: "Deadpool",
-        firstName: "Wade",
-        lastName: "Wilson",
-        birthplace: "Canada",
-        universe: "Marvel",
-        isFavorite: true,
-      },
-      {
-        id: 1,
-        name: "Ghost Rider",
-        firstName: "Johnny",
-        lastName: "Blaze",
-        birthplace: "Illinois",
-        universe: "Marvel",
-        isFavorite: true,
-      },
-    ];
+  constructor(private http: HttpClient) {}
 
-    return heroList;
+  public getAllHeroes(): Observable<HeroInfo[]> {
+
+    return this.http.get<HeroInfo[]>(`${environment.apiUrl}/${this.endpoint}`);
   }
 }
