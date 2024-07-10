@@ -6,6 +6,8 @@ import { HeroInfo } from '../interfaces/hero-info';
 })
 export class HeroService {
 
+  // private const endpoint = "Hero";
+
   public getAllHeroes(): HeroInfo[] {
     let heroList: HeroInfo[] = [
       {
